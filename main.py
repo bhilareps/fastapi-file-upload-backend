@@ -27,3 +27,4 @@ async def upload_file(file: UploadFile = File(...)):
 @app.get("/")
 async def root():
     return {"message": "FastAPI file upload service is running!"}
+
